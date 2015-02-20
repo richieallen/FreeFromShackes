@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagometer.BlackBox.Specs", "Swagometer.BlackBox.Specs\Swagometer.BlackBox.Specs.csproj", "{6923D943-7A15-4641-9A1A-1C2C4C98F544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Complete", "Complete", "{B97B3A4B-0961-4DF4-AB9A-F44D59CE26D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagometer.BlackBox.Specs", "Swagometer.BlackBox.Specs.Initial\Swagometer.BlackBox.Specs.csproj", "{83A1217A-B5FA-4328-B380-D1B37FFB0834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6923D943-7A15-4641-9A1A-1C2C4C98F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6923D943-7A15-4641-9A1A-1C2C4C98F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6923D943-7A15-4641-9A1A-1C2C4C98F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6923D943-7A15-4641-9A1A-1C2C4C98F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A1217A-B5FA-4328-B380-D1B37FFB0834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A1217A-B5FA-4328-B380-D1B37FFB0834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A1217A-B5FA-4328-B380-D1B37FFB0834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A1217A-B5FA-4328-B380-D1B37FFB0834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6923D943-7A15-4641-9A1A-1C2C4C98F544} = {B97B3A4B-0961-4DF4-AB9A-F44D59CE26D4}
+	EndGlobalSection
+EndGlobal

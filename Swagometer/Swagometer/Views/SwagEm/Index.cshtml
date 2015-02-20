@@ -1,0 +1,42 @@
+﻿@model Swagometer.Models.SwagEmViewModel
+@{
+    ViewBag.Title = "Swagometer!";
+}
+
+<div id="swagApp" ng-app="swagApp" data-base-url="@Model.BaseUrl">
+    <div ng-controller="MainController">
+        <div class="jumbotron">
+            <h1>SWAG O'METER</h1>
+            <p>
+                <a id="swagEm" href="#" class="btn btn-primary btn-lg" ng-click="swagEm()">Swag em!</a>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6">
+                <div class="swag-result" ng-show="swagResult != null && swagResult.SwagItem != null">
+                    <h1>WINNER!</h1>
+                    <div id="attendee-fullname">{{ swagResult.Attendee.FullName }}</div>
+                    <div id="swag-name">{{ swagResult.SwagItem.Name }}</div>
+                    <div id="swag-supplier">{{ swagResult.SwagItem.SuppliedBy }}</div>
+                </div>
+                <div class="swag-result" ng-show="swagResult != null && swagResult.SwagItem == null">
+                    <h1>ALL SWAGGED OUT!</h1>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="/Scripts/angular.min.js" ng:autobind></script>
+    <script src="/Scripts/angular-route.js"></script>
+    @Scripts.Render("~/bundles/swagapp")
+}
